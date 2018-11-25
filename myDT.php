@@ -77,6 +77,7 @@ if ($fields!="") $fields='fields: [ '.substr($fields,0,-1).']';
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/select/1.2.6/css/select.bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="<?=$DT_folder;?>/css/editor.bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=$DT_folder;?>/css/editor.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="demo.css">		
 	<style type="text/css" class="init">
 	</style>
 	
@@ -150,7 +151,7 @@ $(document).ready(function() {
             }
 		],
 		scrollX: true,		
-		scrollY: '65vh',
+		scrollY: '67vh',
 		deferRender:    true,
 		scroller:       true,	
 		scrollCollapse: true,		
@@ -168,7 +169,7 @@ $(document).ready(function() {
 </head>
 
 
-	<div class="container">
+	<div class="container90">
 		<section>
 			<!--table id="example" class="display" style="width:100%"-->
 			<table id="myTable" class="table table-striped nowrap" style="width:100%">			
